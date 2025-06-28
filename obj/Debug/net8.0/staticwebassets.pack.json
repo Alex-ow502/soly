@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\soly.bundle.scp.css",
+      "PackagePath": "staticwebassets\\soly.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b00.png",
+      "PackagePath": "staticwebassets\\images\\products\\b00.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b02.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b04.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b05.png",
+      "PackagePath": "staticwebassets\\images\\products\\b05.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b06.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b07.png",
+      "PackagePath": "staticwebassets\\images\\products\\b07.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b08.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b09.png",
+      "PackagePath": "staticwebassets\\images\\products\\b09.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b12.png",
+      "PackagePath": "staticwebassets\\images\\products\\b12.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b15.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b17.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b18.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b19.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b21.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b22.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b23.png",
+      "PackagePath": "staticwebassets\\images\\products\\b23.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b24.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b25.png",
+      "PackagePath": "staticwebassets\\images\\products\\b25.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b26.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b27.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b28.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b29.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b30.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b31.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b32.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b99.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\default-product.png",
+      "PackagePath": "staticwebassets\\images\\products\\default-product.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s00.png",
+      "PackagePath": "staticwebassets\\images\\products\\s00.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s02.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s04.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s05.png",
+      "PackagePath": "staticwebassets\\images\\products\\s05.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s06.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s07.png",
+      "PackagePath": "staticwebassets\\images\\products\\s07.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s08.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s09.png",
+      "PackagePath": "staticwebassets\\images\\products\\s09.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s12.png",
+      "PackagePath": "staticwebassets\\images\\products\\s12.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s15.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s17.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s18.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s19.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s21.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s22.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s23.png",
+      "PackagePath": "staticwebassets\\images\\products\\s23.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s24.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s25.png",
+      "PackagePath": "staticwebassets\\images\\products\\s25.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s26.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s27.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s28.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s29.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s30.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s31.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s32.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s99.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.soly.props",
+      "PackagePath": "build\\soly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.soly.props",
+      "PackagePath": "buildMultiTargeting\\soly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.soly.props",
+      "PackagePath": "buildTransitive\\soly.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.soly.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
