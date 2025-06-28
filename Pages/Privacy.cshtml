@@ -1,8 +1,39 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Политика конфиденциальности";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container py-5">
+    <h1>@ViewData["Title"]</h1>
+
+    <div class="mt-4">
+        <h4>1. Общие положения</h4>
+        <p>Сайт «Соль и сахар 39» (далее — Сайт) не собирает персональные данные без вашего согласия.</p>
+    </div>
+
+    <div class="mt-3">
+        <h4>2. Какие данные мы используем</h4>
+        <ul>
+            <li><strong>Данные форм обратной связи:</strong> имя, телефон, email — только для связи с вами.</li>
+            <li><strong>Технические данные:</strong> IP-адрес, тип браузера (автоматически собираются системой).</li>
+        </ul>
+    </div>
+
+    <div class="mt-3">
+        <h4>3. Защита данных</h4>
+        <p>Мы не передаем ваши данные третьим лицам, кроме случаев, требуемых законом.</p>
+    </div>
+
+    <div class="mt-3">
+        <h4>4. Cookies</h4>
+        <p>Сайт использует cookies для работы корзины и анализа трафика. Вы можете отключить их в настройках браузера.</p>
+    </div>
+
+    <div class="mt-3">
+        <h4>5. Контакты</h4>
+        <p>По вопросам защиты данных обращайтесь: <a href="mailto:larkov.kig@mail.ru">larkov.kig@mail.ru</a></p>
+    </div>
+
+    <p class="mt-4 text-muted"><small>Дата последнего обновления: @DateTime.Now.ToString("dd.MM.yyyy")</small></p>
+</div>
