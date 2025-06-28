@@ -1,0 +1,206 @@
+﻿@page
+@inject IWebHostEnvironment Env
+@using static soly.Pages.IndexModel
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Оптовая база соль и сахар 39";
+}
+
+<div class="container">
+    <header class="text-center my-5">
+        <h1 class="display-4">Оптовая база соль и сахар 39</h1>
+        <p class="lead">в Калининградской области, г. Светлый</p>
+        <p>Более 32 лет на рынке оптовой торговли.<br>Начало деятельности ИП: 7 сентября 1993 г.</p>
+    </header>
+
+    <section class="contact-section bg-light p-4 rounded mb-5">
+        <h2 class="text-center mb-4">ОФИС</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    <strong>Телефоны:</strong><br>
+                    8 (4012) 521-756<br>
+                    8 (4012) 521-726
+                </p>
+                <p>
+                    <strong>Директор Игорь Леонидович:</strong><br>
+                    8 (921) 104-07-74<br>
+                    8 (921) 265-51-58
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>E-mail:</strong> larkov.kig@mail.ru</p>
+                <p>
+                    <strong>Адрес офиса и склада:</strong><br>
+                    238340, Калининградская область<br>
+                    г. Светлый, ул. Железнодорожная д. 3
+                </p>
+                <a href="#map" class="btn btn-primary">Схема проезда</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="features">
+        <div class="feature-item p-3 mb-3 border-start border-4 border-primary bg-white">
+            <h3>Собственные склады</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-success bg-white">
+            <h3>Выгружаем все виды ж/д вагонов и контейнеров</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-primary bg-white">
+            <h3>Разгрузочная рампа</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-success bg-white">
+            <h3>Доставка собственным автотранспортом</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-primary bg-white">
+            <h3>Цены от объёма</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-success bg-white">
+            <h3>Оперативность в отгрузке</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-primary bg-white">
+            <h3>Пунктуальность в сопроводительных документах</h3>
+        </div>
+        <div class="feature-item p-3 mb-3 border-start border-4 border-success bg-white">
+            <h3>Ответственность в обязательствах</h3>
+        </div>
+
+    </div>
+
+
+
+    <button class="navbar-toggler d-md-none fixed-top m-3" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+        <span class="navbar-toggler-icon"></span> Категории
+    </button>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2">
+                <div id="mobileMenu" class="categories-sidebar collapse d-md-block">
+                    <h4 class="mb-4 px-3">Категории</h4>
+                    <div class="accordion" id="categoriesAccordion">
+                        @foreach (var category in Model.Categories)
+                        {
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapse-@category.Id">
+                                        <i class="bi bi-chevron-right me-2 accordion-arrow"></i>
+                                        @category.Name
+                                    </button>
+                                </h2>
+                                <div id="collapse-@category.Id"
+                                     class="accordion-collapse collapse"
+                                     data-bs-parent="#categoriesAccordion">
+                                    <div class="accordion-body">
+                                        <ul class="list-unstyled">
+                                            @foreach (var product in category.Products)
+                                            {
+                                                <li class="mb-2">
+                                                    <a href="#product-@product.Id"
+                                                       class="text-decoration-none product-link"
+                                                       onclick="highlightProduct('@product.Id')">
+                                                        <i class="bi bi-box-seam me-2"></i>
+                                                        @product.Name
+                                                    </a>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-lg-10">
+                @foreach (var category in Model.Categories)
+                {
+                    <section id="@category.Id" class="mb-5">
+                        <h2 class="mb-4">@category.Name</h2>
+
+                        @foreach (var product in category.Products)
+                        {
+                            <div id="product-@product.Id" class="card mb-4 product-card">
+                                <div class="card-body">
+                                    <div class="col">
+                                        <div class="card-body h-100">
+                                            <h5 class="card-title">@product.Name</h5>
+                                            <p class="card-text">@product.Description</p>
+                                            <ul class="list-unstyled">
+                                                <li><strong>Фасовка:</strong> @product.Packaging</li>
+                                                <li><strong>Производитель:</strong> @product.Manufacturer</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </section>
+                }
+            </div>
+        </div>
+    </div>
+ 
+
+
+    
+    <div id="map" style="width: 100%; height: 400px;"></div>
+    @section Scripts {
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+        <script>
+            document.querySelectorAll('#mobileMenu .nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth < 768) {
+                        const collapse = new bootstrap.Collapse(document.getElementById('mobileMenu'));
+                        collapse.hide();
+                    }
+                });
+            });
+            ymaps.ready(function () {
+                var map = new ymaps.Map("map", {
+                    center: [54.9431, 20.1515],
+                    zoom: 15,
+                    controls: []
+                });
+                var placemark = new ymaps.Placemark([54.9431, 20.1515], {
+                    hintContent: 'Оптовая база "Соль и сахар 39"',
+                    balloonContent: 'ул. Железнодорожная д. 3, г. Светлый'
+                }, {
+                    preset: 'islands#redDotIcon'
+                });
+                map.geoObjects.add(placemark);
+                map.behaviors.disable('scrollZoom');
+            });
+            document.querySelectorAll('.product-link').forEach(link => {
+                link.addEventListener('click', function () {
+                    if (window.innerWidth < 768) {
+                        const collapse = new bootstrap.Collapse(document.getElementById('mobileMenu'));
+                        collapse.hide();
+                    }
+                });
+            });
+                function highlightProduct(productId) {
+                    const productCard = document.getElementById(`product-${productId}`);
+
+                if (productCard) {
+                    productCard.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+
+                productCard.classList.add('border-primary', 'shadow');
+
+                        setTimeout(() => {
+                    productCard.classList.remove('border-primary', 'shadow');
+                        }, 3000);
+                    }
+                }
+        </script>
+}
+</div>
+
