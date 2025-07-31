@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using soly.Data;
 
 namespace soly.Pages
 {
@@ -32,7 +32,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-nitrit",
-                            ImageName = "s99",
+                            ImageName = "b00",
                             Name = "Соль нитритная (для производства колбасных изделий",
                             Description = "Для производства мясных консерв, колбас, мясных деликатесов, в мясопереработке.",
                             Packaging = "Полипропиленовые мешки по 25 кг",
@@ -68,7 +68,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-pachka",
-                            ImageName = "s99",
+                            ImageName = "b04",
                             Name = "Соль, фасованная в картонную пачку, высший сорт",
                             Description = "Мелкая фасовка для приготовления пищи в домашних условиях, домашней консервации.",
                             Packaging = "1 кг в т/у плёнке; 21 кг",
@@ -77,7 +77,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-vanna",
-                            ImageName = "s99",
+                            ImageName = "b06",
                             Name = "Морская соль, фасованная в картонную пачку, высший сорт",
                             Description = "Морская соль для ванны.",
                             Packaging = "0,6 кг в т/у; 24?",
@@ -86,7 +86,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-lizun",
-                            ImageName = "s99",
+                            ImageName = "s07",
                             Name = "Соль «лизунец» для животных",
                             Description = "Соль для КРС (коровы, быки, овцы, бараны), диких животных, для охотничьих угодий.",
                             Packaging = "Брикет 10 кг",
@@ -103,7 +103,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-teh",
-                            ImageName = "s99",
+                            ImageName = "s08",
                             Name = "Концентрат минеральный ГАЛИТ в МКР, в мешках Различных классов",
                             Description = "Соль для посыпки дорог, соль для посыпки тротуаров, соль для приготовления песко-соляной смеси.",
                             Packaging = "Вагон, полувагон, МКР, мешок",
@@ -112,7 +112,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "sol-tabl",
-                            ImageName = "s99",
+                            ImageName = "s09",
                             Name = "Соль Таблетированная",
                             Description = "Соль таблетированная для химводоочистки, химводоподготовки.Соль таблетированная применяется для регенерации умягчителей и комплексных фильтров.",
                             Packaging = "Полипропиленовые мешки по 25 кг",
@@ -128,8 +128,8 @@ namespace soly.Pages
                     {
                         new Product
                         {
-                            Id = "sol-korm-lizun",
-                            ImageName = "s99",
+                            Id = "sol-korm-liz",
+                            ImageName = "s07",
                             Name = "Соль «лизунец» для животных",
                             Description = "Соль для КРС (коровы, быки, овцы, бараны), диких животных, для охотничьих угодий.",
                             Packaging = "Брикет 10 кг",
@@ -155,7 +155,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "mel_korm_t",
-                            ImageName = "s99",
+                            ImageName = "s28",
                             Name = "Мел кормовой",
                             Description = "Для КРС (коровы, быки, овцы, бараны), домашней птицы, диких животных, для охотничьих угодий.",
                             Packaging = "МКР по 1 т",
@@ -164,7 +164,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "mel_korm_kg",
-                            ImageName = "s99",
+                            ImageName = "s12",
                             Name = "Мел кормовой",
                             Description = "Для КРС (коровы, быки, овцы, бараны), домашней птицы, диких животных, для охотничьих угодий.",
                             Packaging = "Мешки по 30 кг",
@@ -207,7 +207,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "uksus",
-                            ImageName = "s99",
+                            ImageName = "s30",
                             Name = "Уксусная кислота 70% пищевая",
                             Description = "Уксусная кислота 70% для пищевого производства в канистрах. Уксусная кислота представляет собой бесцветную жидкость с характерным резким запахом и кислым вкусом. Гигроскопична. Неограниченно растворима в воде. Состав применяется в пищевой, химической, текстильной и фармацевтической промышленности. Водный раствор уксусной кислоты 70-80 % называют уксусной эссенцией, а 3-15 % — уксусом. Водные растворы уксусной кислоты широко используются в пищевой промышленности (пищевая добавка E260) и бытовой кулинарии, а также в консервировании овощей и для избавления от накипи.",
                             Packaging = "Канистра 30л",
@@ -224,7 +224,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "shepao",
-                            ImageName = "s99",
+                            ImageName = "s26",
                             Name = "Щепа ольховая (средняя фракция ~1см х 1см)",
                             Description = "Щепа ольховая (средняя фракция ~1см х 1см) для копчения рыбы, мяса, птицы, сыров, овощей. Изготовлена из качественной древесины, очищенной от коры. Не содержит инородных примесей.",
                             Packaging = "Мешок 70л (~20кг)",
@@ -233,7 +233,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "shepa_zth",
-                            ImageName = "s99",
+                            ImageName = "s27",
                             Name = "Щепа ольховая (мелкая фракция ~0,3см х 1см)",
                             Description = "Щепа ольховая (мелкая фракция ~0,3см х 1см) для копчения рыбы, мяса, птицы, сыров, овощей. Изготовлена из качественной древесины, очищенной от коры. Не содержит инородных примесей.",
                             Packaging = "Мешок 70л (~20кг)",
@@ -242,7 +242,7 @@ namespace soly.Pages
                         new Product
                         {
                             Id = "shepa_th",
-                            ImageName = "s99",
+                            ImageName = "s29",
                             Name = "Щепа ольховая (крупная фракция ~3см х 1,5см)",
                             Description = "Щепа ольховая (крупная фракция ~3см х 1,5см) для копчения рыбы, мяса, птицы, сыров, овощей. Изготовлена из качественной древесины, очищенной от коры. Не содержит инородных примесей.",
                             Packaging = "Мешок 70л (~20кг)",
@@ -257,24 +257,19 @@ namespace soly.Pages
 
         public class Category
         {
-            public string Id { get; set; }
-            public string Name { get; set; }
-            public List<Product>
-                Products
-            { get; set; } = new List<Product>
-                    ();
+            public string Id { get; set; } = string.Empty;
+            public string Name { get; set; } = string.Empty;
+            public List<Product> Products { get; set; } = new List<Product>();
         }
 
         public class Product
         {
-            public string Name { get; set; }
-            public string Description { get; set; }
-            public string Packaging { get; set; }
-            public string Manufacturer { get; set; }
-            public string Id { get; set; }
-            public string ImageName { get; set; }
-
-
+            public string Id { get; set; } = string.Empty;
+            public string Name { get; set; } = string.Empty;
+            public string Description { get; set; } = string.Empty;
+            public string Packaging { get; set; } = string.Empty;
+            public string Manufacturer { get; set; } = string.Empty;
+            public string ImageName { get; set; } = string.Empty;
         }
     }
 }

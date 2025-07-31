@@ -5,35 +5,67 @@
 }
 
 <div class="container py-5">
-    <h1>@ViewData["Title"]</h1>
+    <h1 class="display-4 mb-4">@ViewData["Title"]</h1>
 
-    <div class="mt-4">
-        <h4>1. Общие положения</h4>
-        <p>Сайт «Соль и сахар 39» (далее — Сайт) не собирает персональные данные без вашего согласия.</p>
+    <div class="privacy-content bg-light p-4 rounded">
+        <section class="mb-4">
+            <h4 class="border-bottom pb-2">1. Общие положения</h4>
+            <p>Оптовая база «Соль и сахар 39» (ИП Ларьков И.Л.) обязуется соблюдать конфиденциальность посетителей сайта <a href="https://соль39.рф">соль39.рф</a>.</p>
+            <p>Настоящая политика применяется только к информации, собираемой на данном сайте.</p>
+        </section>
+
+        <section class="mb-4">
+            <h4 class="border-bottom pb-2">2. Какие данные мы собираем</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-transparent">
+                    <strong>Контактные данные:</strong> только при явном заполнении форм (имя, телефон, email)
+                </li>
+                <li class="list-group-item bg-transparent">
+                    <strong>Технические данные:</strong> IP-адрес, тип браузера (через сервисы аналитики)
+                </li>
+                <li class="list-group-item bg-transparent">
+                    <strong>Cookies:</strong>
+                    <ul>
+                        <li>Функциональные (для работы сайта)</li>
+                        <li>Аналитические (через Яндекс.Метрику и Google Analytics)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mb-4">
+            <h4 class="border-bottom pb-2">3. Как мы используем данные</h4>
+            <p>Собранная информация используется исключительно для:</p>
+            <ol>
+                <li>Обработки заявок и обратной связи</li>
+                <li>Анализа посещаемости сайта (Яндекс.Метрика и Google Analytics)</li>
+                <li>Улучшения работы ресурса</li>
+            </ol>
+        </section>
+
+        <section class="mb-4">
+            <h4 class="border-bottom pb-2">4. Защита данных</h4>
+            <p>Мы гарантируем:</p>
+            <ul>
+                <li>Отсутствие передачи данных третьим лицам (кроме требований законодательства РФ)</li>
+                <li>Использование защищенного HTTPS-соединения</li>
+                <li>Регулярное обновление системы безопасности</li>
+            </ul>
+        </section>
+
+        <section class="mb-4">
+            <h4 class="border-bottom pb-2">5. Ваши права</h4>
+            <p>Вы можете:</p>
+            <ul>
+                <li>Запросить удаление ваших контактных данных</li>
+                <li>Отказаться от аналитических cookies</li>
+                <li>Запросить информацию о хранимых данных</li>
+            </ul>
+            <p>Для этого напишите на <a href="mailto:larkov.kig@mail.ru">larkov.kig@mail.ru</a></p>
+        </section>
+
+        <div class="alert alert-info mt-4">
+            <p class="mb-0"><small>Дата последнего обновления: @DateTime.Now.ToString("dd.MM.yyyy")</small></p>
+        </div>
     </div>
-
-    <div class="mt-3">
-        <h4>2. Какие данные мы используем</h4>
-        <ul>
-            <li><strong>Данные форм обратной связи:</strong> имя, телефон, email — только для связи с вами.</li>
-            <li><strong>Технические данные:</strong> IP-адрес, тип браузера (автоматически собираются системой).</li>
-        </ul>
-    </div>
-
-    <div class="mt-3">
-        <h4>3. Защита данных</h4>
-        <p>Мы не передаем ваши данные третьим лицам, кроме случаев, требуемых законом.</p>
-    </div>
-
-    <div class="mt-3">
-        <h4>4. Cookies</h4>
-        <p>Сайт использует cookies для работы корзины и анализа трафика. Вы можете отключить их в настройках браузера.</p>
-    </div>
-
-    <div class="mt-3">
-        <h4>5. Контакты</h4>
-        <p>По вопросам защиты данных обращайтесь: <a href="mailto:larkov.kig@mail.ru">larkov.kig@mail.ru</a></p>
-    </div>
-
-    <p class="mt-4 text-muted"><small>Дата последнего обновления: @DateTime.Now.ToString("dd.MM.yyyy")</small></p>
 </div>

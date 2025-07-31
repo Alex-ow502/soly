@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b00.png",
-      "PackagePath": "staticwebassets\\images\\products\\b00.png"
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b00.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b00.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b02.jpg",
@@ -117,8 +121,8 @@
       "PackagePath": "staticwebassets\\images\\products\\b99.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\default-product.png",
-      "PackagePath": "staticwebassets\\images\\products\\default-product.png"
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\logo.png",
+      "PackagePath": "staticwebassets\\images\\products\\logo.png"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s00.png",
@@ -141,20 +145,20 @@
       "PackagePath": "staticwebassets\\images\\products\\s06.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s07.png",
-      "PackagePath": "staticwebassets\\images\\products\\s07.png"
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s07.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s07.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s08.jpg",
       "PackagePath": "staticwebassets\\images\\products\\s08.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s09.png",
-      "PackagePath": "staticwebassets\\images\\products\\s09.png"
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s09.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s09.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s12.png",
-      "PackagePath": "staticwebassets\\images\\products\\s12.png"
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s12.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\s12.jpg"
     },
     {
       "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s15.jpg",
@@ -455,6 +459,10 @@
     {
       "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\robots.txt",
+      "PackagePath": "staticwebassets\\robots.txt"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.soly.props",

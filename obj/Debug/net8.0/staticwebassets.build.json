@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XNgjjYxrQVX52fHDU3NYUQoG8C8rQKz0t3WLcK37Qpk=",
+  "Hash": "Tom/3SYN4uYJe6Uu7afRdkrTrFPpF68wlk8lI28tHrE=",
   "Source": "soly",
   "BasePath": "_content/soly",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b00.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\about.jpg",
       "SourceId": "soly",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
       "BasePath": "_content/soly",
-      "RelativePath": "images/products/b00.png",
+      "RelativePath": "images/about.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\b00.png"
+      "OriginalItemSpec": "wwwroot\\images\\about.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b00.jpg",
+      "SourceId": "soly",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
+      "BasePath": "_content/soly",
+      "RelativePath": "images/products/b00.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b00.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\b02.jpg",
@@ -587,12 +606,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b99.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\default-product.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\logo.png",
       "SourceId": "soly",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
       "BasePath": "_content/soly",
-      "RelativePath": "images/products/default-product.png",
+      "RelativePath": "images/products/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -603,7 +622,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\default-product.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\logo.png"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s00.png",
@@ -701,12 +720,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\s06.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s07.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s07.jpg",
       "SourceId": "soly",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
       "BasePath": "_content/soly",
-      "RelativePath": "images/products/s07.png",
+      "RelativePath": "images/products/s07.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -717,7 +736,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\s07.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\s07.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s08.jpg",
@@ -739,12 +758,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\s08.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s09.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s09.jpg",
       "SourceId": "soly",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
       "BasePath": "_content/soly",
-      "RelativePath": "images/products/s09.png",
+      "RelativePath": "images/products/s09.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -755,15 +774,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\s09.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\s09.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s12.png",
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s12.jpg",
       "SourceId": "soly",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
       "BasePath": "_content/soly",
-      "RelativePath": "images/products/s12.png",
+      "RelativePath": "images/products/s12.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -774,7 +793,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\s12.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\s12.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\images\\products\\s15.jpg",
@@ -2200,6 +2219,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\robots.txt",
+      "SourceId": "soly",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\source\\repos\\soly\\soly\\wwwroot\\",
+      "BasePath": "_content/soly",
+      "RelativePath": "robots.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\robots.txt"
     }
   ]
 }

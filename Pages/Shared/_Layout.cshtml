@@ -1,28 +1,202 @@
 ﻿<!DOCTYPE html>
+@inject IConfiguration Configuration
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <html lang="ru">
 <head>
+    <meta name="google-site-verification" content="FVMAWq33tUQVaeTUrac0CJyIdUfGKZCNmW-XyzxdIlU" />
+    <meta name="yandex-verification" content="00b6815050d8bda2" />
+    <meta name="wmail-verification" content="26d51ee4e4bdb08a79c3fa77dd81ccbb" />
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - soly</title>
+    <meta name="keywords" content="соль Калининград, сахар Калининград, щепа Калининград, кормовые добаки Калининград, уксус Калининград, пищевая соль Калининград, соль техническая Калининград, соль для производства Калининград, оптовая база соль, сахар оптом, купить соль оптом Калининград, сахар песок оптом, пищевая соль, соль для производства, соль экстра, соль техническая, щепа для копчения, кормовая соль, доставка соли, доставка соли оптом, доставка сахара, доставка щепы, доставка техническаой соли, доставка пищевой соли оптом, доставка уксуса Калининград">
+    <meta name="description" content="Оптовая база «Соль и сахар 39» в г. Светлый. Поставки пищевой и технической соли, сахара, щепы для копчения. Работаем с 1993 года. Собственные склады, ж/д разгрузка, доставка по Калининградской области.">
+
+    <meta property="og:url" content="https://соль39.рф" />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Соль и сахар 39">
+    <meta property="og:image" content="https://соль39.рф/logo.png" />
+
+    <title>@ViewData["Title"] - @Configuration["Оптовая база Соль39"]</title>
+    <link rel="canonical" href="https://соль39.рф" />
+
+   @* <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXX"></script>  XXXXXX - ID из GA4
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('consent', 'default', {
+            'analytics_storage': 'denied',
+            'ad_storage': 'denied'
+        }); 
+    
+        function loadYandexMetrika() {
+            (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                m[i].l = 1 * new Date();
+                k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+            })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(18366694, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,
+                trackHash: true,
+                ecommerce: "dataLayer"
+            });
+        }
+
+        if (localStorage.getItem('cookiesAccepted')) {
+            gtag('consent', 'update', {
+                'analytics_storage': 'granted'
+            });
+            loadYandexMetrika();
+        }
+
+        gtag('js', new Date());
+    gtag('config', 'G-XXXXXX', {
+            anonymize_ip: true,
+            send_page_view: false</script> *@
+
+    <script>
+        function loadYandexMetrika() {
+            (function (m, e, t, r, i, k, a) {
+                m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+                m[i].l = 1 * new Date();
+                k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+            })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+            ym(18366694, "init", {
+                clickmap: true,
+                trackLinks: true,
+                accurateTrackBounce: true,
+                webvisor: true,
+                trackHash: true,
+                ecommerce: "dataLayer"
+            });
+        }
+
+        if (localStorage.getItem('cookiesAccepted')) {
+            loadYandexMetrika();
+        }
+    </script>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/soly.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
 
-    <header>
- 
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script type="application/ld+json">
+        @Html.Raw(@"{
+            ""@context"": ""https://schema.org"",
+            ""@type"": ""LocalBusiness"",
+            ""name"": ""Оптовая база Соль и сахар 39"",
+            ""image"": ""https://соль39.рф/images/logo.png"",
+            ""telephone"": ""+74012521756"",
+            ""email"": ""larkov.kig@mail.ru"",
+            ""address"": {
+                ""@type"": ""PostalAddress"",
+                ""streetAddress"": ""ул. Железнодорожная д. 3"",
+                ""addressLocality"": ""Светлый"",
+                ""addressRegion"": ""Калининградская область"",
+                ""postalCode"": ""238340"",
+                ""addressCountry"": ""RU""
+            },
+            ""openingHoursSpecification"": {
+                ""@type"": ""OpeningHoursSpecification"",
+                ""dayOfWeek"": [
+                    ""Monday"",
+                    ""Tuesday"",
+                    ""Wednesday"",
+                    ""Thursday"",
+                    ""Friday""
+                ],
+                ""opens"": ""08:00"",
+                ""closes"": ""17:00""
+            },
+            ""priceRange"": ""₽₽""
+        }")
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid justify-content-center">
+                    <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3">
+                                <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/Index" ? "active" : "")"
+                                   asp-page="/Index">Главная</a>
+                            </li>
+                            <li class="nav-item px-3">
+                                <a class="nav-link @(ViewContext.RouteData.Values["Page"]?.ToString() == "/About" ? "active" : "")"
+                                   asp-page="/About">О компании</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
+
     <main>
         <div class="container">
             @RenderBody()
         </div>
     </main>
+
+
+
+    <div id="scrollToTop" class="scroll-to-top">
+        <i class="bi bi-arrow-up-circle-fill"></i>
+    </div>
+
+    <div id="cookieConsent" class="cookie-consent" style="display: none;">
+        <div class="cookie-content">
+            <p>Мы используем cookies для анализа трафика и улучшения работы сайта. Вы можете запретить их сохранение в настройках браузера.</p>
+            <div class="cookie-buttons">
+                <button id="acceptCookies" class="btn btn-primary btn-sm">Принять</button>
+                <a href="/privacy" class="btn btn-link btn-sm">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
     @RenderSection("Scripts", required: false)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
- </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cookieConsent = document.getElementById('cookieConsent');
+            const acceptButton = document.getElementById('acceptCookies');
+
+            if (!localStorage.getItem('cookiesAccepted')) {
+                setTimeout(() => {
+                    cookieConsent.style.display = 'block';
+                }, 1000);
+            }
+
+            acceptButton.addEventListener('click', function() {
+                localStorage.setItem('cookiesAccepted', 'true');
+                cookieConsent.style.display = 'none';
+                
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted'
+                });
+                
+                loadYandexMetrika();
+            });
+        });
+    </script>
+</body>
 </html>
